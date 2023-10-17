@@ -1,35 +1,26 @@
-# Recipe-Management-System
-Introduction
-Welcome to the Recipe Management System project! This application allows users to create, manage, and share their favorite recipes. It's a versatile tool for both experienced cooks and beginners looking to organize their culinary adventures.
+# recipe-holder
 
-Features
-User Authentication: Secure user accounts with registration, login, and password reset functionalities.
+-----
 
-Recipe Creation: Create, edit, and delete recipes with a user-friendly interface.
+Yes, this is another recipe manager. It utilizes Angular 1, Node, and MongoDB to manage the recipes for a family. 
 
-Categorization: Organize recipes by categories (e.g., Breakfast, Lunch, Dinner, Dessert).
+### Prerequisites:
 
-Search and Filter: Easily find recipes by name, ingredients, or category.
+Must have Mongo installed an running for this application to work. 
 
-Shopping List: Add ingredients from recipes to a shopping list for easy reference while shopping.
+-----
 
-Meal Planning: Plan your meals by adding recipes to specific days.
+### How to install:
 
-Social Sharing: Share your favorite recipes with friends and family through various social media platforms.
+Clone the repository and simply run `npm install`
 
-Getting Started
-Prerequisites
-Node.js installed on your machine.
-MongoDB installed and running.
-Usage
-Register or Login: Create an account or log in with your existing credentials.
+### How to run:
 
-Add Recipes: Click on "Add Recipe" to create a new recipe. Fill in the details like name, category, ingredients, and instructions.
+Run `npm start`
 
-Search and Filter: Use the search bar or filters to find recipes based on your preferences.
+The application will be accessible at `localhost:3000` by default.
 
-Shopping List: Add ingredients from recipes to your shopping list for easy reference.
 
-Meal Planning: Plan your meals by adding recipes to specific days in the calendar.
+This application is also enable to run on OpenShift and will adopt the ports and host information from the environment there is deployed. 
 
-Social Sharing: Share your favorite recipes with friends and family through social media.
+Have an idea for a feature or find a bug!? Log an issue!
